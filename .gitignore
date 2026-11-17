@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But descend into directories
+!*/
+
+# Keep Java and C source files
+!*.java
+!*.c
+
+# Keep this file
+!/.gitignore
