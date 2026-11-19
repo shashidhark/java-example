@@ -40,7 +40,7 @@ class IFTest {
     FixedStack mystack2 = new FixedStack(8);
 
     // push some numbers onto the stack
-    for(int i=0; i<5; i++) mystack1.push(i);
+    for(int i=0; i<8; i++) mystack1.push(i);
     for(int i=0; i<8; i++) mystack2.push(i);
 
     // pop those numbers off the stack
